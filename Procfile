@@ -1,1 +1,1 @@
-web: gunicorn add_news_admin_panel:wsgi --log-file -
+web: gunicorn config.wsgi.application --log-file -
